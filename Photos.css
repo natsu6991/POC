@@ -1,0 +1,128 @@
+body{
+ 	background: url(http://maximumwallhd.com/wp-content/uploads/2015/09/fonds-ecran-pirates-des-caraibes-2-le-secret-du-coffre-maudit-13.jpg) fixed bottom;
+ 	background-size: 100%;
+}
+/* menu */
+.pagemenu > a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.pagemenu:hover > a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+.rubrique > a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.rubrique:hover > a{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+.pagesousmenu > a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.conteneur_menu{
+	border-spacing: 0px;
+	position: fixed;
+	font-family: "piecesofeight";
+	font-size: 20px;
+}
+.conteneur_menu{
+	width: 100%;
+	display: table;
+	border-radius: 7px;
+	height: 30px;
+	background: -webkit-linear-gradient(top, #333333 0%,#000000 100%);
+	margin-left: -8px;
+}
+a{
+	text-decoration: none;
+	display: table-cell;
+	vertical-align: middle;
+	height: 30px;
+	padding: 0 5px;
+	text-align: center;
+}
+.pagemenu, .rubrique{
+	float: left;
+	position: relative;
+	width: 25%;
+	text-align: center;
+	display: table;
+}
+.sousmenu{
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	visibility: hidden;
+	z-index: 3;
+	width: 100%;
+	background-color: #000000;
+	border-radius: 0 0 7px 7px;
+}
+.rubrique:hover .sousmenu{
+	opacity: 1;
+	visibility: visible;
+	top: 30px;
+}
+.sousmenu a:hover{
+	background-color: #656565;
+	border-radius: 0 0 7px 7px;
+}
+.pagesousmenu{
+	width: 100%;
+	text-align: center;
+	display: table;
+}
+/* police */
+@font-face {
+	font-family: "piecesofeight";
+	src: url("PiecesofEight.ttf");
+}
+/* position */
+.container{
+	position: relative;
+}
+nav{
+	position: relative;
+	z-index: 4;
+}
+#page{
+	position: relative;
+	z-index: 2;
+}
+/* page */
+#page{
+	background-color: #b89543;
+    width: 75%;
+    height: 100%;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    top: 300px;
+    border-radius: 7px;
+}
+#titre{
+	text-align: center;
+	font-family: "piecesofeight";
+	font-size: 30px;
+}
+.image{
+	width: 75%;
+	height: 75%;
+}
+.liens{
+	color: purple;
+}
+.liens:visited{
+	color: purple;
+}

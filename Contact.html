@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="Contact.css">
+        <script src="Contact.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <div class='conteneur_menu'>
+                    <div class='pagemenu'>
+                        <a href='Accueil.html'>Accueil</a>
+                    </div>
+                    <div class='pagemenu'>
+                        <a href='Histoire.html'>Histoire</a>
+                    </div>
+                    <div class='rubrique'>
+                        <a>Gallerie</a>
+                            <div class='sousmenu'>
+                                <div class='pagesousmenu'>
+                                    <a href='Photos.html'>Photos</a>
+                                </div>
+                                <div class='pagesousmenu'>
+                                    <a href='Vidéos.html'>Vidéos</a>
+                                </div>
+                            </div>
+                    </div>
+                    <div class='pagemenu'>
+                        <a href='Contact.html'>Contact</a>
+                    </div>
+                </div>
+            </nav>
+            <section id="page">
+                <h1 id="titre">Me contacter ?</h1>
+                <div align="center">
+                    <form method="post" name="myform" id="monForm" action="Message.html">
+                        <label for="Prénom">Prénom : </label><br><input id="Prénom" type="text" name="prénom" required>
+                        <br>
+                        <label for="Nom">Nom : </label><br><input id="Nom" type="text" name="nom" required>
+                        <br>
+                        <label for="Email">Email : </label><br><input id="Email" type="email" name="email" required>
+                        <br>
+                        <label for="Description">Description de votre message : </label><br><textarea id="Description" name="description" required></textarea>
+                        <br><br>
+                        <input type="submit" value="Envoyer">
+                    </form>
+                </div>
+                <br><br>
+            </section>
+        </div>
+    </body>
+</html>

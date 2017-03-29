@@ -1,0 +1,283 @@
+/* arrière-plan */
+body{
+ 	background: url(http://img15.hostingpics.net/pics/465601Crnepage.jpg) fixed top;
+ 	background-size: 67%;
+}
+/* barre de menu */
+.pagemenu > a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.pagemenu:hover > a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+.rubrique > a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.rubrique:hover > a{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+.pagesousmenu > a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.conteneur_menu{
+	border-spacing: 0px;
+	position: fixed;
+	font-family: "piecesofeight";
+	font-size: 20px;
+}
+.conteneur_menu{
+	width: 100%;
+	display: table;
+	border-radius: 7px;
+	height: 30px;
+	background: -webkit-linear-gradient(top, #333333 0%,#000000 100%);
+	margin-left: -8px;
+}
+a{
+	text-decoration: none;
+	display: table-cell;
+	vertical-align: middle;
+	height: 30px;
+	padding: 0 5px;
+	text-align: center;
+}
+.pagemenu, .rubrique{
+	float: left;
+	position: relative;
+	width: 25%;
+	text-align: center;
+	display: table;
+}
+.sousmenu{
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	visibility: hidden;
+	z-index: 3;
+	width: 100%;
+	background-color: #000000;
+	border-radius: 0 0 7px 7px;
+}
+.rubrique:hover .sousmenu{
+	opacity: 1;
+	visibility: visible;
+	top: 30px;
+}
+.sousmenu a:hover{
+	background-color: #656565;
+	border-radius: 0 0 7px 7px;
+}
+.pagesousmenu{
+	width: 100%;
+	text-align: center;
+	display: table;
+}
+
+/* police */
+@font-face{
+	font-family: "piecesofeight";
+	src: url("PiecesofEight.ttf");
+}
+@font-face{
+	font-family: "28dayslater";
+	src: url("28DaysLater.ttf");
+}
+/* position */
+.container{
+	position: relative;
+}
+nav{
+	position: relative;
+	z-index: 4;
+}
+#page{
+	position: relative;
+	z-index: 2;
+}
+
+/* page */
+#page{
+	background-color: #b89543;
+    width: 75%;
+    height: 100%;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    top: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* contenu page */
+#titre{
+	text-align: center;
+	font-family: "piecesofeight";
+	font-size: 30px;
+}
+p, h1, table{
+	padding-left: 12px;
+	padding-right: 12px;
+}
+#n1{
+	color: orange;
+}
+#n2{
+	color: green;
+}
+#n3{
+	color: blue;
+}
+#n4{
+	font-family: "28dayslater";
+	font-size: 15px;
+}
+#n5{
+	color: pink;
+}
+#n6{
+	color: maroon;
+}
+.histoire{
+	font-size: 20px;
+}
+.couverture_film{
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+}
+#personnage{
+	text-align: center;
+	font-family: "piecesofeight";
+	font-size: 27px;
+}
+.photo{
+	display: none;
+}
+#img01{
+	background-image: url(http://img.lum.dolimg.com/v1/images/e12c6b042ba46e43697492be6bce82e81409abd7.jpeg?region=0,0,450,450&width=320);
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 11px 11px 20px -7px rgba(0,0,0,0.75);
+}
+#img02{
+	background-image: url(http://img.lum.dolimg.com/v1/images/open-uri20150422-20810-nfwbfe_0f39b2c9.jpeg?region=0,0,450,450&width=320);
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 11px 11px 20px -7px rgba(0,0,0,0.75);
+}
+#img03{
+	background-image: url(http://img.lum.dolimg.com/v1/images/open-uri20150422-20810-1keix0g_dcb60f1c.jpeg?region=0,0,450,450&width=320);
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 11px 11px 20px -7px rgba(0,0,0,0.75);
+}
+#img04{
+	background-image: url(http://img.lum.dolimg.com/v1/images/open-uri20150422-20810-12bpslx_48e9f0da.jpeg?region=0,0,450,450&width=320);
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 11px 11px 20px -7px rgba(0,0,0,0.75);
+}
+#img05{
+	background-image: url(http://img.lum.dolimg.com/v1/images/open-uri20150422-20810-162ppbj_ec9d6c7c.jpeg?region=0,0,450,450&width=320);
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 11px 11px 20px -7px rgba(0,0,0,0.75);
+}
+#img06{
+	background-image: url(http://img.lum.dolimg.com/v1/images/open-uri20150422-20810-9fled6_d03aef55.jpeg?region=0,0,450,450&width=320);
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 11px 11px 20px -7px rgba(0,0,0,0.75);
+}
+#img07{
+	background-image: url(http://img.lum.dolimg.com/v1/images/open-uri20150422-20810-1a1tdoq_372a7e6a.jpeg?region=0,0,450,450&width=320);
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 11px 11px 20px -7px rgba(0,0,0,0.75);
+}
+#img08{
+	background-image: url(http://img.lum.dolimg.com/v1/images/open-uri20150422-20810-1j7kwkn_d1e26af2.jpeg?region=0,0,450,450&width=320);
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 11px 11px 20px -7px rgba(0,0,0,0.75);
+}
+#img09{
+	background-image: url(http://img.lum.dolimg.com/v1/images/open-uri20150422-20810-edkkzh_090efe8c.jpeg?region=0,0,450,450&width=320);
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 11px 11px 20px -7px rgba(0,0,0,0.75);
+}
+#img10{
+	background-image: url(http://img.lum.dolimg.com/v1/images/open-uri20150422-20810-1hx92wj_46bf0c82.jpeg?region=0,0,450,450&width=320);
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 11px 11px 20px -7px rgba(0,0,0,0.75);
+}
+#img11{
+	background-image: url(http://img.lum.dolimg.com/v1/images/open-uri20150422-20810-1kiemvr_3688881a.jpeg?region=0,0,450,450&width=320);
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 11px 11px 20px -7px rgba(0,0,0,0.75);
+}
+#lien{
+	color: purple;
+}
+#lien:visited{
+	color: purple;
+}
